@@ -4,7 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8">
     <meta name="viewport" content="width=device-width", initial-scale="1">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <title>DREAM SMART FARM</title>
+    <title>DREAM</title>
 </head>
 <body>
 <nav class="navbar navbar-default">
@@ -14,25 +14,12 @@
                 aria-expanded="false">
             <span> class="icon-bar"></span>
             <span> class="icon-bar"></span>
+            <span> class="icon-bar"></span>
+            <span> class="icon-bar"></span>
         </button>
-        <a class="nav-" href="main.jsp" style="font-size: xx-large">DREAM</a>
-    </div>
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav nav-pills">
-            <li><a href="main.jsp">메 인</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-left">
-<%--            <li class="dropdown">--%>
-<%--                <a href="#" class="dropdown-toggle"--%>
-<%--                   data-toggle="dropdown" role="button" aria-haspopup="true"--%>
-<%--                   aria-expanded="false">메 뉴<span class="caret"></span></a>--%>
-<%--                <ul class="dropdown-menu">--%>
-                    <li class="navbar-left"><a href="#">설 정</a></li>
-                    <li> class="navbar-left"> <a href="#">모 니 터 링</a></li>
-                </ul>
-            </li>
-        </ul>
-
+        <div class="text-center">
+            <a href="SmartFarmMain_cp.jsp"> <img class="img-responsive center-block img-circle" alt="스마트팜 로그인 로고" src="image/smartpage_login_logo.png"></a>
+        </div>
     </div>
 </nav>
 <div class="container">
@@ -40,6 +27,7 @@
     <div class="col-lg-4">
         <div class="jumbotron" style="padding-top: 20px;">
             <form method="post" action="SmartForm_Login.jsp">
+                <!-- 로그인 -->
                 <h3 style="text-align: center;">로그인</h3>
                 <div class="form-group">
                     <input type="text" class="form-control" placeholder="아이디" name="ID" maxlength="20">
