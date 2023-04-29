@@ -18,26 +18,36 @@
             <span> class="icon-bar"></span>
         </button>
         <!-- 로고 이미지 -->
-        <div class="text-center">
-            <a href="SmartFarmMain_cp.jsp"> <img class="img-responsive center-block img-circle" alt="스마트팜 로그인 로고" src="image/smartpage_login_logo.png"></a>
+        <a class="navbar-left" style="padding: 30px;"  href="SmartFarmMain_cp.jsp"> <img style="width: 100px; height: 100px; opacity: 0.5;" class="img-responsive center-block img-circle" alt="스마트팜 로그인 로고" src="image/smartpage_login_logo.png"></a>
+        <div class="navbar-left">
+            <p style="font-family: 'Impact'; top: 60px; font-size: 60px;">DREAM</p>
         </div>
     </div>
 </nav>
-<!-- 로그인 폼 -->
+<!-- 회원가입 폼 -->
 <div class="container">
     <div class="col-lg-4"></div>
     <div class="col-lg-4">
         <div class="jumbotron" style="padding-top: 20px;">
-            <!-- 로그인 액션 -->
-            <form method="post" action="SmartFormLoginAction.jsp">
-                <h3 style="text-align: center;">로그인</h3>
+            <!-- 회원가입 액션 -->
+            <form method="post" action="SmartFormJoinAvtion.jsp">
+                <h3 style="text-align: center;">회원가입</h3>
                 <div class="form-group">
                     <input type="text" class="form-control" placeholder="아이디" name="ID" maxlength="20">
                 </div>
                 <div class="form-group">
                     <input type="password" class="form-control" placeholder="비밀번호" name="Password" maxlength="20">
                 </div>
-                <input type="submit" class="bin btn-primary form-group-sm" value="로그인">
+                <div class="form-group">
+                    <input type="password" class="form-control" placeholder="비밀번호 확인" name="Password" maxlength="20">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="이름" name="Password" maxlength="20">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="email" name="e-mail" maxlength="20">
+                </div>
+                <input type="submit" class="bin btn-primary form-control" value="회원가입">
             </form>
         </div>
     </div>
