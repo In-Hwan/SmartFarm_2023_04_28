@@ -38,6 +38,7 @@
                     <input type="password" class="form-control" placeholder="비밀번호" name="Password" maxlength="20">
                 </div>
                 <input type="submit" class="bin btn-primary form-group-sm" value="로그인">
+                <input type="submit" formaction="SmartFarmJoin.jsp" class="bin btn-primary form-group-sm" value="회원가입">
             </form>
         </div>
     </div>
